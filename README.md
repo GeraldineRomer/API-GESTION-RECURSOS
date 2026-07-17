@@ -28,20 +28,20 @@ API de gestión con autenticación segura basada en tokens JWT, construida como 
 
 ## Estructura del proyecto
 
-fastapi-jwt-api/
-├── app/
-│   ├── main.py            → punto de entrada de la aplicación
-│   ├── database.py        → conexión a PostgreSQL
-│   ├── models.py          → tablas (SQLAlchemy)
-│   ├── schemas.py         → validación de datos (Pydantic)
-│   ├── auth.py            → lógica de JWT y hashing de contraseñas
-│   ├── dependencies.py    → guardias de seguridad para rutas protegidas
-│   └── routers/
-│       ├── auth_router.py → /auth/register, /auth/login
-│       └── items_router.py → CRUD protegido de items
-├── requirements.txt
-├── .example.env
-└── README.md
+    fastapi-jwt-api/
+    ├── app/
+    │   ├── main.py            → punto de entrada de la aplicación
+    │   ├── database.py        → conexión a PostgreSQL
+    │   ├── models.py          → tablas (SQLAlchemy)
+    │   ├── schemas.py         → validación de datos (Pydantic)
+    │   ├── auth.py            → lógica de JWT y hashing de contraseñas
+    │   ├── dependencies.py    → guardias de seguridad para rutas protegidas
+    │   └── routers/
+    │       ├── auth_router.py → /auth/register, /auth/login
+    │       └── items_router.py → CRUD protegido de items
+    ├── requirements.txt
+    ├── .example.env
+    └── README.md
 
 ---
 
@@ -174,6 +174,7 @@ http://localhost:8000/docs
 Esta API está deployada en Railway y disponible en:
 
 🔗 **Demo en vivo: 
+
 📁 **Repositorio: https://github.com/GeraldineRomer/API-GESTION-RECURSOS
 
 ---

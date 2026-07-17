@@ -173,7 +173,7 @@ http://localhost:8000/docs
 
 Esta API está deployada en Railway y disponible en:
 
-🔗 **Demo en vivo: 
+🔗 **Demo en vivo: https://api-gestion-recursos-production.up.railway.app/docs
 
 📁 **Repositorio: https://github.com/GeraldineRomer/API-GESTION-RECURSOS
 
